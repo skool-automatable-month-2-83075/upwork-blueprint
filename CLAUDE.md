@@ -27,11 +27,12 @@ follows the client's language (`references/copy.md`).
 
 ## The path
 
-This copy holds `/about-me` · `/profile` · `/find-jobs` · `/proposal` · `/loom-review` · `/dashboard` · `/message` · `/sales-call-prep` · `/sales-call-proposal` · `/call-review` · `/analytics`.
-`/dashboard` is the daily one: it refreshes from Upwork, opens the dashboard and drafts what is due, and typing it again refreshes. `/message <client name>` is the one beside the path: one client, their whole conversation, one reply.
-A focus argument runs only that part; an input matching no focus value gets the list and a question. Everything after `/about-me` reads that one file.
-
-**Later commands unlock with the course.** Month 2 adds `/onboarding`. A step or page that names one of them is pointing ahead: say in one line when it unlocks, then carry on without it. Each unlock comes with its lesson, and the lesson holds the link to pull.
+`/about-me` · `/profile` · `/find-jobs` · `/proposal` · `/dashboard` ·
+`/sales-call-prep` · `/sales-call-proposal` · `/onboarding` · `/analytics` · `/call-review` · `/loom-review`. `/dashboard` is the daily one: it refreshes from Upwork,
+opens the dashboard and drafts what is due, and typing it again refreshes. `/message <client name>`
+is the one beside the path: one client, their whole conversation, one reply. A focus argument
+runs only that part; an input matching no focus value gets the list and a question.
+Everything after `/about-me` reads that one file.
 
 ## Connecting Upwork comes first
 

@@ -12,7 +12,7 @@ Vercel account. Details are in
 [Requirements](#requirements) and [What it costs to run](#what-it-costs-to-run).
 
 1. Clone it anywhere on your computer:
-   `git clone https://github.com/skool-automatable-day-7-48823/upwork-blueprint.git`
+   `git clone https://github.com/skool-automatable-month-2-83075/upwork-blueprint.git`
 2. Open a terminal in the folder and run `./setup.sh` once. It creates your own
    files and writes `.env` with your unique Vercel project
 3. Follow [Connect Upwork](#connect-upwork), then run `/about-me`. It asks about
@@ -44,7 +44,7 @@ Claude Code session. `RESEARCH.md` is background reading; no command uses it.
 | 5 | `/dashboard` | Your day: pulls what changed on Upwork, opens your dashboard with every lead and its next step, and drafts the messages that are due. Type it again to refresh |
 | 6 | `/sales-call-prep` | Before a sales call: one page to glance at during it, the seven stops in order with what to say at each, and a few facts about the business and the person |
 | 7 | `/sales-call-proposal` | Turns your sales call into the proposal you send, and says whether it is ready to start a project on |
-| 8 | `/onboarding` | Unlocks month 2. Turns a started contract into a checklist page you run the kickoff call from, the message that books the call, and the client's own folder |
+| 8 | `/onboarding` | Turns a started contract into a checklist page you run the kickoff call from, the message that books the call, and the client's own folder |
 | Weekly | `/analytics` | Finds the one step losing you deals, gives you the fix, and split tests it until a winner is clear |
 | On demand | `/loom-review` | Reviews the Loom you sent with one application and gives you the one change that helps most |
 | On demand | `/call-review` | Reviews a finished sales call from its transcript and saves the feedback |
@@ -102,8 +102,6 @@ Details are in `.env.example`.
 
 Run `git pull`, then `./setup.sh` again. Activate `.venv` first if you use it.
 
-When the next lesson unlocks, it gives you a new link. Run `git remote set-url origin <that link>`, then `git pull` and `./setup.sh`. If git says the histories diverged, run `git fetch origin && git reset --hard origin/main`: it replaces only the repo's own files, and yours are gitignored.
-
 ## What appears in your folder
 
 Everything below is yours and gitignored, so `git pull` never touches it.
@@ -122,7 +120,7 @@ expands to your home folder, and a relative path resolves against the repository
 parent. A path inside this repository is rejected so Upwork rules do not load in
 client delivery sessions.
 
-From month 2, `/onboarding` creates the client's own Claude Code project and git repository:
+`/onboarding` creates the client's own Claude Code project and git repository:
 `CLAUDE.md`, which loads `context/client.md` with the client's facts; `context/`
 with the sales files and `call-notes.md`; `output/` with `onboarding.md`;
 `references/`, `.env`, and the `/pull-context` skill, which brings in anything new
