@@ -39,9 +39,9 @@ FACTS = 'context/client.md'
 SKILL = '.claude/skills/pull-context/SKILL.md'
 SKILL_TEMPLATE = ROOT / 'templates' / 'client' / 'pull-context.md'
 BLUEPRINTS = {
-    'seo': {'url': 'https://github.com/automatable-skool/seo-blueprint-day7',
+    'seo': {'url': 'https://github.com/skool-automatable-day-7-48823/seo-blueprint-day7',
             'next': '/context-layer'},
-    'ads': {'url': 'https://github.com/automatable-skool/ads-blueprint-day7',
+    'ads': {'url': 'https://github.com/skool-automatable-day-7-48823/ads-blueprint-day7',
             'next': '/account-setup'},
     'cro': {'url': 'https://github.com/skool-automatable-month-2-83075/cro-blueprint',
             'next': '/audit check <site>'},
